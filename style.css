@@ -27,7 +27,7 @@ header {
   /* padding-right: 15px; */
   padding: 5px;
   font-size: 12px;
-  color: gray;
+  color:rgb(68, 66, 66);
   text-decoration: none;
   list-style: none;
 }
@@ -40,6 +40,9 @@ header {
   height: 20px;
   padding-bottom: 5px;
   margin-left: 15px;
+}
+.fa-map-marker-alt{
+  padding-left: 4px;
 }
 /******************* header & citi logo ends here  */
 
@@ -65,6 +68,7 @@ nav {
   border: none;
   background-color: transparent;
   display: none;
+  outline: none;
 }
 .nav-items {
   display: inline-flex;
@@ -525,7 +529,7 @@ footer {
   padding-bottom: 8px;
   border: none;
   display: none;
-  /* outline: transparent; */
+  outline: none;
 }
 .footer-links a {
   font-size: 12px;
@@ -667,6 +671,9 @@ footer {
   }
   .nav-items li a:hover {
     background: none;
+  }
+  .nav-items li:hover .dropdown-content {
+    display: flex;
   }
   #open-acct:hover {
     background-color: #206db2;
@@ -1019,6 +1026,9 @@ footer {
   }
   .nav-items li a:hover {
     background: none;
+  }
+  .nav-items li:hover .dropdown-content {
+    display: flex;
   }
   #open-acct:hover {
     background-color: #206db2;
